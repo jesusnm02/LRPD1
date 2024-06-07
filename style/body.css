@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../images/soyuz.jpg");
+    background-color: #000;
+}
+
+h1, h2, h3, h4, figure, img {
+    margin: 0;
+}
+
+.container_usuario {
+    text-align: center;
+    margin: auto;
+    width: 20vw;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #51595A;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.container_usuario input {
+    width: 15vw;;
+}
+.bi-person-circle {
+    position: absolute;
+    top: -80px;
+    font-size: 100px;
+}

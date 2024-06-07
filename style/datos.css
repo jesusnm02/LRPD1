@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #FD1805 !important;
+    font-weight: 800;
+    /* background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important; */
+}
+
+.bg-body-tertiary a {
+    font-size: 25px;
+    color: #fff !important;
+    font-weight: 800;
+}
+
+#bienvenida {
+    margin-top: 36vh;
+    text-align: center;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FD1805;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    background-color: #ffffffc7;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+}
